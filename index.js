@@ -10,7 +10,7 @@ const camera = new SPLAT.Camera();
 const controls = new SPLAT.OrbitControls(camera, canvas);
 
 async function main() {
-    const url = "https://cdn.glitch.me/b4a14096-79dd-4841-bad6-0d9786f22d0a/mahabs_final.splat?v=1703752540344";
+    const url = "https://pub-e0f1518581f94485abc8ff8ad939aacb.r2.dev/mahabs_final.splat";
 
     await SPLAT.Loader.LoadAsync(url, scene, (progress) => progressIndicator.value = progress * 100);
     progressDialog.close();
